@@ -6,6 +6,7 @@ import { Provider } from 'react-redux';
 import App from './App.tsx';
 import { store } from './app/store.ts';
 import './index.css';
+import 'maplibre-gl/dist/maplibre-gl.css';
 
 const theme = extendTheme({
   radius: {

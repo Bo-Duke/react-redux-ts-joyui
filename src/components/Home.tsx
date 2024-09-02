@@ -34,7 +34,7 @@ const Home = () => {
         </Link>
       </Stack>
       <Typography textAlign="center" level="h1">
-        Vite + React + Redux + JoyUI + TS
+        Vite + React + Redux + JoyUI + TS + Maplibre
       </Typography>
       <Card>
         <CardContent>
