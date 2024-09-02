@@ -14,6 +14,7 @@ import { increment, selectCount } from './app/slices/counterSlice';
 import reactLogo from './assets/react.svg';
 import ModeSwitcher from './components/ModeSwitcher';
 import viteLogo from '/vite.svg';
+import CustomMap from './components/CustomMap';
 
 function App() {
   const counter = useAppSelector(selectCount);
@@ -68,6 +69,7 @@ function App() {
           <ModeSwitcher />
         </CardActions>
       </Card>
+      <CustomMap width={350} height={200} />
     </Container>
   );
 }
